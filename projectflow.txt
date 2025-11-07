@@ -1,0 +1,10 @@
+1. Create a git repo and clone it in local setup.
+2. Create a mycode.py file and code to it. (it will save a csv file to a new "data" folder)
+3. py -3.11 -V
+4. py -3.11 -m venv .venv
+5. source .venv/Scritps/activate
+6. python -m pip install --upgrade pip
+7. create a requirements.txt file for libraries
+8. pip install -r requirements.txt
+9. python mycode.py
+10. Do a git add -commit -push before initializing dvc.
