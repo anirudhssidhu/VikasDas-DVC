@@ -53,3 +53,8 @@
             dvc push
 
 32. git add . / git commit -m "third version of data saved" / git push origin main
+
+33. roll back to first version of data:
+        - git checkout c957aee
+        - dvc status
+        - 
