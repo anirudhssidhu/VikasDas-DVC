@@ -38,4 +38,10 @@
 
 27. git add ./ git commit -m 'first version of data saved'/ git push origin main
 
+28. make changes to mycode.py file to append new row in the data. - check changes via dvc status:
+        python mycode.py
+        dvc status
 
+29. Again -- "dvc commit" and then "dvc push"
+
+30. git add . / git commit -m "second version of data saved" / git push origin main

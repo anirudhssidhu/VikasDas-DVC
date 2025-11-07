@@ -10,10 +10,10 @@ data = {
 
 df = pd.DataFrame(data)
 
-# ## Adding new row to df for version2
+## Adding new row to df for version2
 
-# new_row_loc = {'Name': 'V2', 'Age': 20, 'City': 'City1'}
-# df.loc[len(df.index)] = new_row_loc
+new_row_loc = {'Name': 'Girlfriend-Alex', 'Age': 20, 'City': 'Meerut'}
+df.loc[len(df.index)] = new_row_loc
 
 # # Adding new row to df for version 3
 
