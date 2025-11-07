@@ -27,6 +27,15 @@
 20. dvc status
 
 21. git log --oneline
+22. git add.
+23. git commit -m "dvc initiated with data version 1"
+24. git push origin main
+25. git status
 
+26. dvc is tracking our data but no folder or files in S3 remote:
+        dvc commit
+        dvc push
+
+27. git add ./ git commit -m 'first version of data saved'/ git push origin main
 
 
