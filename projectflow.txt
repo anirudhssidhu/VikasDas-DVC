@@ -8,3 +8,25 @@
 8. pip install -r requirements.txt
 9. python mycode.py
 10. Do a git add -commit -push before initializing dvc.
+11. add dvc to requirements.txt file
+12. Now we do "dvc init" (creates .dvcignore, .dvc)
+13. Now do "mkdir S3' (creates a new S3 directory)
+14. Now we do "dvc remote add -d myremote S3"
+15. Next "dvc add data/"
+
+16.  To stop tracking from Git:
+            git rm -r --cached 'data'
+            git commit -m "stop tracking data"
+
+17. run again "dvc add data/"
+
+18. To track the changes with git, run:
+        git add .gitignore data.dvc
+
+19. git status
+20. dvc status
+
+21. git log --oneline
+
+
+
